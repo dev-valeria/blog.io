@@ -1,0 +1,86 @@
+/* Home.module.css */
+
+.home {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.search_form {
+  margin-bottom: 20px;
+}
+
+.search_form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+
+.search_form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search_form button:hover {
+  background-color: #555;
+}
+
+.postsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+  /* Ajusta para três posts por linha */
+  box-sizing: border-box;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post p {
+  font-size: 0.9em;
+}
+
+.post img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btnDark {
+  background-color: #333;
+}
+
+.btnDark:hover {
+  background-color: #555;
+}
+
+.noposts {
+  text-align: center;
+  margin-top: 20px;
+}

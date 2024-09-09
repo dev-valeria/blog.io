@@ -1,0 +1,117 @@
+.navbar {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 2em;
+  background-color: #fff;
+}
+
+.brand {
+  font-size: 1.2em;
+  color: #000;
+    text-transform: uppercase;
+  /* Cor do texto da marca */
+  font-weight: bold;
+  /* Adiciona um pouco de peso para destacar */
+}
+
+.brand span {
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #000;
+  /* Preenchimento preto */
+  color: #fff;
+  /* Texto branco para contraste */
+  padding: 0.1em 0.3em;
+  /* Pequeno padding para visualização */
+}
+
+.links_list {
+  display: flex;
+  list-style: none;
+  margin-right: 1em;
+}
+
+.links_list li {
+  margin: 0;
+}
+
+.links_list li a {
+  padding: 0.4em 0.6em;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.links_list li a:hover {
+  background-color: #f0f0f0;
+  /* Cor de fundo suave para hover */
+  color: #000;
+  /* Manter a cor do texto preto */
+}
+
+.links_list li a.active {
+  background-color: #000;
+  /* Fundo preto */
+  color: #fff;
+  /* Texto branco */
+}
+
+.contact_section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.email_input {
+  padding: 0.4em 0.6em;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+}
+
+.whatsapp_container {
+  position: relative;
+}
+
+.whatsapp_icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .links_list {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .contact_section {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .email_input {
+    width: 100%;
+  }
+}
