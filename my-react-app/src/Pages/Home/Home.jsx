@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
-import arcanjoMiguelImage from '../../imgs/arcanjoMiguel.jpg'
-import mercurioRetrogrado from '../../imgs/mercurioRetrogrado.jpg'
+import noventaEnoveimagem from '../../imgs/99imagem.jpg'
+import gitHubCopilot from '../../imgs/gitHubCopilot.jpg'
+import eloMusk from '../../imgs/eloMusk.jpg'
 
 
 // Componente para exibir detalhes de cada post
@@ -27,27 +28,22 @@ const Home = () => {
     setTimeout(() => {
       const fakePosts = [
         {
-          id: 1, title: 'Oração para proteção de Arcajo Miguel',
-          body: 'Um dos três mensageiros divinos de Deus, São Miguel simboliza a justiça e a intercessão diante do eterno.',
-          image: arcanjoMiguelImage
+          id: 1, title: 'Musk provoca Moraes após X (Twitter) voltar no Brasil: ‘Magia avançada’.',
+          body: 'Provocação do bilionário ao ministro do STF ocorre após usuários relatarem acesso ao X; Corte exige resposta da Anatel e representante dos provedores de internet acusa a rede social de burlar a determinação.',
+          image: eloMusk
 
         },
         {
-          id: 2, title: 'Mercúrio Retrógrado: O Que Você Precisa Saber',
-          body: 'Mercúrio Retrógrado é um fenômeno astrológico que ocorre quando o planeta Mercúrio parece estar se movendo para trás no céu em relação à Terra.',
-           image: mercurioRetrogrado
+          id: 2, title: '99 usa IA para recuperar mais de 300 mil transações “perdidas” com cartão de crédito.',
+          body: 'Acréscimo em conversão de pagamentos foi alcançado em apenas dois meses e aumentou o retorno sobre investimento (ROI) da 99.',
+           image: noventaEnoveimagem
         },
         {
           id: 3,
-          title: 'Meditação: Técnicas para Iniciantes',
-          image: require('../../imgs/meditacao.jpg'),
-          body: `Meditar é uma prática poderosa que tem sido utilizada ao longo dos séculos para promover a saúde mental e emocional.`,
+          title: 'GitHub Copilot: o potencial da ferramenta em jornadas de desenvolvimento',
+          image: require('../../imgs/gitHubCopilot.jpg'),
+          body: `Com base na modalidade de IA generativa, foi lançado recentemente o GitHub Copilot: uma ferramenta desenvolvida pela OpenAI, em parceria com a GitHub, capaz de acelerar o processo programação.`,
         },
-        { id: 4, title: 'Post 4', body: 'Este é o conteúdo do post 4.' },
-  
-        { id: 5, title: 'Post 5', body: 'Este é o conteúdo do post 5.' },
-        { id: 6, title: 'Post 6', body: 'Este é o conteúdo do post 5.' },
-
       ];
       setPosts(fakePosts);
       setLoading(false);

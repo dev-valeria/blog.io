@@ -12,69 +12,48 @@ const Post = () => {
       const fakePosts = [
         {
           id: 1,
-          title: 'Oração para proteção de Arcanjo Miguel',
-          image: require('../../imgs/arcanjoMiguel.jpg'),
+          title: 'Musk provoca Moraes após X (Twitter) voltar no Brasil: ‘Magia avançada’.',
+          image: require('../../imgs/eloMusk.jpg'),
           body: `
-            O ritual de oração dos 21 dias do Arcanjo Miguel tem como objetivo fazer uma limpeza espiritual,
-            assim libertando das limitações que impedem sua vida de fluir.
-            Cultuado em diversas religiões, o Arcanjo Miguel é protetor e líder do exército de Deus, 
-            uma vez que combate todos os poderes do mal. Desse modo, a oração de São Miguel Arcanjo deve 
-            ser realizada durante o tempo previsto, sem interrupções. Passado este período,
-            a clareza e tranquilidade vão imperar em todas as esferas da vida.`,
+            Provocação do bilionário ao ministro do STF ocorre após usuários relatarem acesso ao X; Corte exige resposta da Anatel e representante dos provedores de internet acusa a rede social de burlar a determinação.`,
           body1: `
-            Eu apelo ao Cristo para acalmar meus medos e para apagar todo mecanismo 
-            de controle externo que possa interferir com esta cura. Eu peço a meu Eu 
-            Superior que feche minha aura e estabeleça um canal Crístico para os propósitos 
-            de minha cura, para que só as energias Crísticas possam fluir até mim.`,
+            BRASÍLIA – O bilionário Elon Musk, dono do X (antigo Twitter), provocou o ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes após internautas relatarem que a rede social, suspensa por ordem do magistrado desde o dia 30 de agosto, voltou a funcionar em território brasileiro. Sem citar Moraes, Musk disse que “magia avançada é indistinguível da tecnologia”.`,
           body2: `
-            Não se poderá fazer outro uso deste canal que não seja para o fluxo de energias Divinas.
-            Agora apelo ao Arcanjo Miguel, da 13ª Dimensão, para que sele e proteja completamente esta sagrada experiência. 
-            Agora apelo ao Círculo de Segurança da 13ª dimensão para que sele, proteja e aumente completamente o escudo de Miguel Arcanjo, 
-            assim como para que remova qualquer coisa que não seja de natureza Crística e que exista atualmente dentro deste campo.
-            Agora apelo aos Mestres Ascensionados e a nossos assistentes Crísticos para que removam e dissolvam completamente, 
-            todos e cada um dos implantes e suas energias semeadas, parasitas, armas espirituais e dispositivos de limitação autoimpostos, 
-            tanto conhecidos como desconhecidos. Uma vez completado isso, apelo pela completa restauração e reparação do campo de energia original,
-            infundido com a energia dourada de Cristo.`,
+            “Qualquer magia suficientemente avançada é indistinguível da tecnologia”, afirmou Musk na madrugada desta quarta-feira, 18. A frase é uma referência ao autor de ficção científica Arthur C. Clarke (1917-2008), que criou a célebre citação “qualquer tecnologia suficientemente avançada é indistinguível da magia”.`,
           body3: `
-            Eu sou livre! Eu sou livre! Eu sou livre! Eu sou livre! Eu sou livre! Eu sou livre! Eu sou livre!`,
+           Nesta quarta, usuários do X começaram a relatar que a suspensão da plataforma, que foi cumprida pelos provedores de internet após a ordem de Moraes, não está impedindo o acesso em aplicativos móveis da rede social para Android e iOS. Procurada pelo Estadão, a Agência Brasileira de Telecomunicações (Anatel), responsável por repassar a determinação do ministro para as empresas, afirmou que não houve alteração na decisão e está apurando o caso. Inicialmente, o STF declarou que houve uma “instabilidade no bloqueio de algumas redes”.`,
           body4: `
-            Eu, o ser conhecido como (declare seu nome) nesta encarnação particular, por este meio revogo e renuncio a todos e cada um dos compromissos de fidelidade, 
-            votos, acordos e/ou contratos de associação que já não servem a meu bem mais elevado, nesta vida, vidas passadas, vidas simultâneas, 
-            em todas as dimensões, períodos de tempo e localizações. Eu agora ordeno a todas as entidades (que estão ligadas com esses contratos, 
-            organizações e associações às que agora renuncio) que cessem e desistam e que abandonem meu campo de energia agora e para sempre 
-            e em forma retroativa, levando seus artefatos, dispositivos e energias semeadas.`,
+            “O Supremo Tribunal Federal (STF) está checando a informação sobre o acesso ao X por parte de alguns usuários. Aparentemente é apenas uma instabilidade no bloqueio de algumas redes”, afirmou a Corte em nota pela manhã.`,
           body5: `
-            Havendo declarado tudo isto eu agora autorizo ao Cristo e ao meu próprio Eu Superior para que façam mudanças em minha vida para acomodar esta nova dedicação 
-            e peço ao Espírito Santo que testemunhe isto também. Eu agora declaro isto a Deus. Que seja escrito no Livro da Vida. Que assim seja. Graças a Deus.`,
+            A Associação Brasileira de Provedores de Internet e Telecomunicações (Abrint), que representa as empresas que tiveram que suspender a rede social, acusa o X de ter burlado a ordem de Moraes por meio de uma técnica que adota IPs dinâmicos.`,
           body6: `
-            O mais importante, eu me perdôo a mim mesmo, por tudo o que necessite ser perdoado entre minhas encarnações passadas e meu Eu Superior.
-            Estamos agora coletivamente curados e perdoados, curados e perdoados, curados e perdoados. Todos estamos agora elevados a nossos seres Crísticos.`,
+            Segundo a Abrint, o X utilizou a Cloudflare, serviço de proxy reverso em nuvem que atua como intermediário entre os usuários e os servidores da rede social, para driblar a determinação. O sistema permite que o IP, que diferencia cada máquina, fique “escondido”, o que dificulta o bloqueio.`,
           body7: `
-            Eu peço ao Senhor Metatron que nos libere das cadeias da dualidade. Eu peço que o selo do Domínio do Cristo seja colocado sobre mim.
-            Eu peço ao Espírito Santo que testemunhe que isto se cumpra. E assim é.`,
+            Após o relato dos usuários, o STF pediu para que a Anatel explique o motivo que levou o retorno do X sem autorização judicial.`,
+           body7: `
+            O X está suspenso no País desde o dia 30 de agosto, após Musk descumprir uma ordem de Moraes, que determinou a apresentação de um representante legal da rede social no País. O bilionário fechou os escritórios do X no dia 17 de agosto, alegando suposta censura e ameaças por parte do ministro do STF.`,
         },
 {
   id: 2,
-  title: 'Mercúrio Retrógrado: O Que Você Precisa Saber',
-  image: require('../../imgs/mercurioRetrogrado.jpg'),
-  body: `O Que é Mercúrio Retrógrado?`,
-  body1: `Mercúrio Retrógrado é um fenômeno astrológico que ocorre quando Mercúrio parece se mover para trás no céu em relação à Terra. Acontece três a quatro vezes por ano e dura cerca de três semanas cada vez. Muitos acreditam que isso pode impactar nossa vida cotidiana.`,
-  body2: `Como Mercúrio Retrógrado Afeta a Nossa Vida? Durante esse período, áreas como comunicação, tecnologia e viagens podem enfrentar desafios. É comum observar problemas técnicos, mal-entendidos e atrasos.`,
-  body3: `Comunicação e Tecnologia: Durante Mercúrio Retrógrado, mal-entendidos e dificuldades na comunicação são frequentes. Revise documentos e mensagens antes de enviá-los e mantenha a paciência. Problemas técnicos, como falhas em dispositivos e software, também podem surgir. Faça backups regulares e evite iniciar projetos tecnológicos importantes.`,
-  body4: `Viagens: Atrasos e imprevistos em viagens são comuns. Verifique os detalhes da sua viagem e esteja preparado para mudanças de planos.`,
-  body5: `Como Aproveitar Mercúrio Retrógrado: Use este tempo para refletir e revisar aspectos da sua vida. Reavalie seus objetivos e projetos antigos, e aproveite para resolver conflitos e melhorar a comunicação com os outros.`,
-  body6: `Conclusão: Mercúrio Retrógrado pode trazer desafios, mas também oferece uma chance de crescimento e reflexão. Prepare-se e mantenha uma atitude positiva para navegar por esse período com mais tranquilidade.`,
+  title: '99 usa IA para recuperar mais de 300 mil transações “perdidas” com cartão de crédito.',
+  image: require('../../imgs/99imagem.jpg'),
+  body: `Acréscimo em conversão de pagamentos foi alcançado em apenas dois meses e aumentou o retorno sobre investimento (ROI) da 99`,
+  body1: `Em apenas dois meses, a 99 recuperou mais de 300 mil transações “perdidas” por conta de erros nos dados de cartões do usuários do aplicativo. A empresa, utilizando uma solução da plataforma de tecnologia de pagamentos Adyen, aproveitou a inteligência artificial (IA) para conseguir o feito, que também aumentou o retorno sobre investimento (ROI) da 99.`,
+  body2: `A tecnologia atualiza os dados dos cartões de crédito automaticamente, o que gerou a recuperação de tantas transações em tão pouco tempo.`,
+  body3: `Aproximadamente, 6% dos cartões são perdidos, roubados, bloqueados ou têm suas datas de validade expiradas, o que faz com que pagamentos legítimos sejam recusados, de acordo com informações da Adyen.`,
+  body4: `“A solução utiliza inteligência artificial para realizar a atualização automática dos dados ao identificar que um cartão está vencido, foi substituído, perdido ou roubado. Isso proporciona taxas de aprovação mais altas para empresas e jornadas mais flexíveis e sem fricção para os passageiros”, disse Renato Migliacci, vice-presidente de vendas da Adyen Brasil.`,
+  body5: `“Queríamos criar uma jornada que fosse a mais eficiente e ágil possível para nosso cliente, eliminando qualquer barreira desnecessária. Quando falamos do momento de pagamento, o sucesso e a segurança das transações são imprescindíveis” afirmou Leonardo Prado, gerente sênior de pagamentos online da 99.`,
         },
 {
 
   id: 3,
-  title: 'Meditação: Técnicas para Iniciantes',
-  image: require('../../imgs/meditacao.jpg'),
-  body: `Introdução à Meditação`,
-  body1: `Meditar é uma prática poderosa que tem sido utilizada ao longo dos séculos para promover a saúde mental e emocional. A meditação pode ajudar a reduzir o estresse, melhorar o foco e criar uma sensação de paz interior. Para iniciantes, é recomendável começar com sessões curtas, de 5 a 10 minutos, e aumentar gradualmente à medida que você se torna mais confortável com a prática.`,
-  body2: `Escolha um ambiente tranquilo e confortável onde você possa sentar sem ser perturbado. A posição pode ser sentada em uma cadeira, no chão com as pernas cruzadas ou deitado, desde que você se sinta confortável e alerta. Feche os olhos, concentre-se na sua respiração e observe o fluxo natural do ar entrando e saindo dos seus pulmões. Se sua mente começar a divagar, gentilmente traga seu foco de volta à respiração. Para orientação, você pode usar aplicativos de meditação guiada que oferecem instruções e técnicas variadas.`,
-  body3: `Benefícios da Meditação: A prática regular de meditação pode levar a melhorias significativas em diversas áreas da sua vida. Estudos mostram que a meditação pode aumentar a concentração e a clareza mental, reduzir sintomas de ansiedade e depressão, e promover uma sensação geral de bem-estar. Além disso, a meditação pode ajudar a melhorar a qualidade do sono e fortalecer o sistema imunológico. Explore diferentes técnicas, como a meditação mindfulness, a meditação transcendental e a meditação guiada, para encontrar aquela que mais ressoa com você.`,
-  body4: `Conclusão: Incorporar a meditação em sua rotina diária pode trazer muitos benefícios para sua saúde mental e emocional. É importante começar de forma gradual e ser consistente para experimentar os efeitos positivos ao longo do tempo. Lembre-se de que a meditação é uma prática pessoal e não há uma maneira certa ou errada de meditar. Encontre um estilo que funcione para você e aproveite o processo de autodescoberta e crescimento que a meditação pode proporcionar.`,
+  title: 'GitHub Copilot: o potencial da ferramenta em jornadas de desenvolvimento',
+  image: require('../../imgs/gitHubCopilot.jpg'),
+  body: `O desenvolvimento de software e a criação de documentação técnica são tarefas complexas que demandam tempo e conhecimento especializado. Felizmente, a evolução da inteligência artificial tem proporcionado avanços significativos nesse sentido.`,
+  body1: `Com base na modalidade de IA generativa, foi lançado recentemente o GitHub Copilot: uma ferramenta desenvolvida pela OpenAI, em parceria com a GitHub, capaz de acelerar o processo programação. Neste artigo, exploraremos como ela pode nos ajudar e tornar mais rápido o desenvolvimento e documentação de projetos, fornecendo exemplos práticos e destacando seus benefícios.`,
+  body2: `O que é o GitHub Copilot?`,
+  body3: `O GitHub Copilot é um assistente de programação alimentado por inteligência artificial. Ele foi treinado com base em uma grande quantidade de códigos-fonte de código aberto e pode gerar sugestões de código automaticamente, ajudando os desenvolvedores a escreverem de forma mais rápida e eficiente.`,
+  body4: `Com sua capacidade de sugerir trechos de código completos, ele se torna uma ferramenta poderosa para acelerar o processo de desenvolvimento, com funções preditivas e que oferecem sugestões contextuais em tempo real. Com isso, o resultado é economia de tempo e no esforço para a escrita de códigos repetitivos ou muito complexos.`,
 
 }
 

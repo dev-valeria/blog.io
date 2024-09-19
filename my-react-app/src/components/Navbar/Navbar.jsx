@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <NavLink to="/" className={styles.brand}>
-        Insights<span>Elevados</span>
+        Insights<span>Code</span>
       </NavLink>
       <ul className={styles.links_list}>
         <li>
@@ -14,21 +14,23 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/curiosidades" className={({ isActive }) => (isActive ? styles.active : undefined)}>
-            Curiosidades
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/noticias-espirituais" className={({ isActive }) => (isActive ? styles.active : undefined)}>
-            Notícias Espirituais
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/artigos-espiritualidade" className={({ isActive }) => (isActive ? styles.active : undefined)}>
-            Artigos de Espiritualidade
-          </NavLink>
-        </li>
+       {/* 
+<li>
+  <NavLink to="/curiosidades" className={({ isActive }) => (isActive ? styles.active : undefined)}>
+    Curiosidades
+  </NavLink>
+</li>
+<li>
+  <NavLink to="/noticias-espirituais" className={({ isActive }) => (isActive ? styles.active : undefined)}>
+    Notícias Espirituais
+  </NavLink>
+</li>
+<li>
+  <NavLink to="/artigos-espiritualidade" className={({ isActive }) => (isActive ? styles.active : undefined)}>
+    Artigos de Espiritualidade
+  </NavLink>
+</li>
+*/}
       </ul>
 {/* 
 <div className={styles.contact}>
